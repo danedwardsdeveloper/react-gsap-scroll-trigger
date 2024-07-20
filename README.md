@@ -4,4 +4,6 @@
 
 A simple static React app, served with Express and deployed with [Fly.io](Fly.io).
 
-![GSAP scroll trigger example](/demo.gif 'GSAP scroll trigger example')
+![GSAP scroll trigger GIF](/https://github.com/danedwardsdeveloper/react-gsap-scroll-trigger/blob/main/demo.gif 'GSAP scroll trigger GIF')
+
+![GSAP scroll trigger screenshot](/screenshot.webp 'GSAP scroll trigger screenshot')
