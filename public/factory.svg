@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="100%" stop-color="#5C6BC0"/>
+    </linearGradient>
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEB3B"/>
+      <stop offset="100%" stop-color="#FFC107"/>
+    </linearGradient>
+  </defs>
+  <rect x="48" y="16" width="160" height="224" rx="8" ry="8" fill="url(#buildingGradient)"/>
+  <rect x="64" y="32" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="112" y="32" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="160" y="32" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="64" y="80" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="112" y="80" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="160" y="80" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="64" y="128" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="112" y="128" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="160" y="128" width="32" height="32" rx="4" ry="4" fill="url(#windowGradient)"/>
+  <rect x="112" y="192" width="32" height="48" rx="4" ry="4" fill="url(#windowGradient)"/>
+</svg>

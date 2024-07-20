@@ -1,0 +1,132 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	text-align: center;
+}
+
+main {
+	overflow-x: hidden;
+}
+
+.hero {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background: hsla(160, 100%, 88%, 1);
+
+	background: linear-gradient(
+		135deg,
+		hsla(160, 100%, 88%, 1) 1%,
+		hsla(51, 100%, 90%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		135deg,
+		hsla(160, 100%, 88%, 1) 1%,
+		hsla(51, 100%, 90%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		135deg,
+		hsla(160, 100%, 88%, 1) 1%,
+		hsla(51, 100%, 90%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C4FFEB", endColorstr="#FFF7CB", GradientType=1 );
+}
+
+.hero h1 {
+	font-size: 3rem;
+	max-width: 80%;
+	color: #333;
+}
+
+.content-section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 4rem 2rem;
+	box-sizing: border-box;
+}
+
+.content-section:nth-child(odd) {
+	background: hsla(30, 100%, 85%, 1);
+
+	background: linear-gradient(
+		90deg,
+		hsla(30, 100%, 85%, 1) 0%,
+		hsla(297, 100%, 79%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(30, 100%, 85%, 1) 0%,
+		hsla(297, 100%, 79%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(30, 100%, 85%, 1) 0%,
+		hsla(297, 100%, 79%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD9B3", endColorstr="#FA96FF", GradientType=1 );
+}
+
+.content-section:nth-child(even) {
+	background: hsla(41, 100%, 84%, 1);
+
+	background: linear-gradient(
+		225deg,
+		hsla(41, 100%, 84%, 1) 2%,
+		hsla(0, 100%, 80%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		225deg,
+		hsla(41, 100%, 84%, 1) 2%,
+		hsla(0, 100%, 80%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		225deg,
+		hsla(41, 100%, 84%, 1) 2%,
+		hsla(0, 100%, 80%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFE4AB", endColorstr="#FF9B9B", GradientType=1 );
+}
+
+.content-section h2 {
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+	color: #2c3e50;
+}
+
+.content-section p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	color: #34495e;
+	margin: 1rem auto;
+}
+
+@media (max-width: 768px) {
+	.hero h1 {
+		font-size: 2rem;
+	}
+
+	.content-section h2 {
+		font-size: 2rem;
+	}
+
+	.content-section p {
+		font-size: 1rem;
+	}
+}
