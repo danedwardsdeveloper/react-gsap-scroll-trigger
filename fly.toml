@@ -18,3 +18,6 @@ primary_region = 'lhr'
   [[services.ports]]
     handlers = ["tls", "http"]
     port = "443"
+
+kill_signal = "SIGINT"
+kill_timeout = 5
